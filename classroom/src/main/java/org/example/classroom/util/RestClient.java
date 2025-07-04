@@ -1,7 +1,6 @@
-package org.example.order.util;
+package org.example.classroom.util;
 
 import org.springframework.http.*;
-import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;

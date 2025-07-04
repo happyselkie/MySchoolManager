@@ -1,4 +1,4 @@
-package org.example.order.config;
+package org.example.classroom.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
