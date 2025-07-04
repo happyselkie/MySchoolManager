@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("classroom")
+@RequestMapping("api")
 public class ClassroomController {
 
     private final ClassroomService classroomService;
@@ -28,7 +28,7 @@ public class ClassroomController {
     @GetMapping("/{id}")
     public ResponseEntity<ClassroomResponseDto> getById(@PathVariable Long id) { return ResponseEntity.ok(classroomService.get(id)); }
 
-    @PostMapping("/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<ClassroomResponseDto> update(@PathVariable Long id, @RequestBody ClassroomReceiveDto classroom) { return ResponseEntity.status(HttpStatus.CREATED).body(classroomService.update(id, classroom)); }
 
     @DeleteMapping("/{id}")
