@@ -28,7 +28,7 @@ public class TeacherController {
     @GetMapping("/{id}")
     public ResponseEntity<TeacherResponseDto> getById(@PathVariable Integer id) { return ResponseEntity.ok(teacherService.get(id)); }
 
-    @PostMapping("/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<TeacherResponseDto> update(@PathVariable Integer id, @RequestBody TeacherReceiveDto teacher) { return ResponseEntity.status(HttpStatus.CREATED).body(teacherService.update(id, teacher)); }
 
     @DeleteMapping("/{id}")
