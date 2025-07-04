@@ -31,6 +31,7 @@ public class Teacher {
     public TeacherResponseDto entityToDto() {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         return TeacherResponseDto.builder()
+                .id(getId())
                 .lastName(getLastName())
                 .firstName(getFirstName())
                 .birthDate(getBirthDate().format(dateTimeFormatter))
