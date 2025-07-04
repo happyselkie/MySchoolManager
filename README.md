@@ -67,10 +67,10 @@ eureka.instance.prefer-ip-address=true
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------<br/>
-| <kbd>GET /teacher/api</kbd>     | retrieves all teachers info see [response details](#get-teacher)<br/>
-| <kbd>GET /teacher/api/{id}</kbd>     | retrieves teacher info by Id see [request details](#get-teacher)<br/>
-| <kbd>POST /teacher/api</kbd>     | Create teacher info [request details](#post-teacher)<br/>
-| <kbd>PUT /teacher/api/{id}</kbd>     | Update teacher by id info [request details](#post-teacher)<br/>
+| <kbd>GET /teacher/api</kbd>     | retrieves all teachers info <br/>
+| <kbd>GET /teacher/api/{id}</kbd>     | retrieves teacher info by Id<br/>
+| <kbd>POST /teacher/api</kbd>     | Create teacher info <br/>
+| <kbd>PUT /teacher/api/{id}</kbd>     | Update teacher by id info <br/>
 | <kbd>DELETE /teacher/api/{id}</kbd>     | Delete teacher by id
 
 <h3 id="get-teacher">GET /api/teacher</h3>
@@ -110,10 +110,10 @@ eureka.instance.prefer-ip-address=true
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------<br/>
-| <kbd>GET /student/api</kbd>     | retrieves all students info see [response details](#get-student)<br/>
-| <kbd>GET /student/api/{id}</kbd>     | retrieves student info by Id see [request details](#get-student)<br/>
-| <kbd>POST /student/api</kbd>     | Create student info [request details](#post-student)<br/>
-| <kbd>PUT /student/api/{id}</kbd>     | Update student by id info [request details](#post-student)<br/>
+| <kbd>GET /student/api</kbd>     | retrieves all students info see <br/>
+| <kbd>GET /student/api/{id}</kbd>     | retrieves student info by Id see <br/>
+| <kbd>POST /student/api</kbd>     | Create student info <br/>
+| <kbd>PUT /student/api/{id}</kbd>     | Update student by id info <br/>
 | <kbd>DELETE /student/api/{id}</kbd>     | Delete student by id
 
 <h3 id="get-student">GET /api/student</h3>
@@ -153,10 +153,10 @@ eureka.instance.prefer-ip-address=true
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------<br/>
-| <kbd>GET /classroom/api</kbd>     | retrieves all classrooms info see [response details](#get-classroom)<br/>
-| <kbd>GET /classroom/api/{id}</kbd>     | retrieves classroom info by Id see [request details](#get-classroom)<br/>
-| <kbd>POST /classroom/api</kbd>     | Create classroom info [request details](#post-classroom)<br/>
-| <kbd>PUT /classroom/api/{id}</kbd>     | Update classroom by id info [request details](#post-classroom)<br/>
+| <kbd>GET /classroom/api</kbd>     | retrieves all classrooms info see <br/>
+| <kbd>GET /classroom/api/{id}</kbd>     | retrieves classroom info by Id see <br/>
+| <kbd>POST /classroom/api</kbd>     | Create classroom info <br/>
+| <kbd>PUT /classroom/api/{id}</kbd>     | Update classroom by id info<br/>
 | <kbd>DELETE /classroom/api/{id}</kbd>     | Delete classroom by id
 
 <h3 id="get-classroom">GET /api/classroom</h3>
