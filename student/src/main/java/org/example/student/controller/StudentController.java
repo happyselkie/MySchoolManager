@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("student")
+@RequestMapping("api")
 public class StudentController {
 
     private final StudentService studentService;
@@ -28,7 +28,7 @@ public class StudentController {
     @GetMapping("/{id}")
     public ResponseEntity<StudentResponseDto> getById(@PathVariable Integer id) { return ResponseEntity.ok(studentService.get(id)); }
 
-    @PostMapping("/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<StudentResponseDto> update(@PathVariable Integer id, @RequestBody StudentReceiveDto student) { return ResponseEntity.status(HttpStatus.CREATED).body(studentService.update(id, student)); }
 
     @DeleteMapping("/{id}")
